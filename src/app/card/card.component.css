@@ -1,0 +1,30 @@
+.card {
+	width: 250px;
+	margin: 3px 5px;
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	border:1px solid #3f3f3f;
+}
+
+.card .likes {
+	background-color: red;
+	color:white;
+	padding: 7px 12px;
+	border-radius: 7px;
+	position: relative;
+	top: -32px;
+	left: 5px;
+}
+
+.card .valor {
+	background-color: teal;
+	color: white;
+	padding: 7px 12px;
+	position: relative;
+	top: -32px;
+	right: 5px;
+}
