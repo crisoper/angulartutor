@@ -31,7 +31,7 @@
 
 <div class="content" role="main">
 
-  <table>
+  <!-- <table>
     <tr>
       <td>
         <app-card valor="{{ 1 }}"></app-card>
@@ -53,7 +53,34 @@
   <p>
     <app-aleatorio minimo="1" maximo="10" #aleatorio2></app-aleatorio>
     <button (click)="aleatorio2.generarAleatorio(15000)">15000</button><br>
-  </p>
+  </p> -->
+
+
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col">
+        <app-binding [datos]="articulos"></app-binding>    
+      </div>
+    </div>
+  </div> -->
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <app-dado valor="6"></app-dado>
+      </div>
+
+      <div class="col">
+        <app-dado valor="1"></app-dado>
+      </div>
+
+      <div class="col">
+        <app-dado valor="3"></app-dado>
+      </div>
+    </div>
+  </div>
 
 
 </div>

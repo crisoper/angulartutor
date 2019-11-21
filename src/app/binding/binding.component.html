@@ -1,0 +1,22 @@
+<div class="table-responsive">
+  <table class="table table-bordered table-hover">
+  	<thead>
+  		<tr>
+  			<th>Codigo</th>
+  			<th>Nombre</th>
+  			<th>Precio</th>
+  			<th>Foto</th>
+  		</tr>
+  	</thead>
+
+  	<tbody>
+  		<tr *ngFor="let producto of datos">
+  			<td>{{producto.codigo}}</td>
+		      <td>{{producto.nombre}}</td>
+		      <td>{{producto.precio}}</td>
+		      <td> <img src="{{ producto.foto }}"></td>
+  		</tr>
+  	</tbody>
+
+  </table>
+</div>
