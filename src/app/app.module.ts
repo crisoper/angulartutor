@@ -7,6 +7,11 @@ import { AleatorioComponent } from './aleatorio/aleatorio.component';
 import { BindingComponent } from './binding/binding.component';
 
 import { ElementosModule } from './elementos/elementos.module';
+import { RecursosModule } from './recursos/recursos.module';
+
+
+import {HttpClientModule} from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -17,8 +22,10 @@ import { ElementosModule } from './elementos/elementos.module';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
 
-    ElementosModule 
+    ElementosModule,
+    RecursosModule
 
   ],
   providers: [],
